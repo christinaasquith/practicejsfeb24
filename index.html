@@ -1,0 +1,40 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./styles.css">
+        <title>WhichCountry</title>
+    </head>
+
+    <body>
+<header>
+    <h1> Which Country Are You In?</h1>
+</header>
+
+<form>
+    <input type="text" placeholder="Type of monkey?" class="monkey_input"/>
+    <input type="text" placeholder="Type of flower?" class="flower_input"/>
+    <input type="text" placeholder="Type of jungle sounds" class="jungle_input"/>
+    <button class="country_button" type="submit">
+        <i class="fa fa-paw"></i>
+    </button>
+    <!--dropdown menu-->
+    <div class="select">
+        <select name="country" class="filter_country">
+            <option value="Germany">Germany</option>
+            <option value="Costa Rica">Costa Rica</option>
+            <option value="Bahrain">Bahrain</option>
+        </select>
+    </div>
+</form>
+<!--Container for javascript-->
+<div class="country_container">
+    <ul class="country_list"></ul>
+</div>
+<script src="script.js"></script>
+
+
+    </body>
+</html>
